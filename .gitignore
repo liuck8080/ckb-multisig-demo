@@ -1,0 +1,18 @@
+# Rust
+target/*
+.cache/.cargo/*
+contracts/**/target/*
+contracts/**/build/*
+Cargo.lock
+
+# C
+contracts/c/build/*
+
+# others
+build/*
+!.gitkeep
+.tmp/
+migrations
+
+orig-tests/target/
+orig-tests/specs/cells/*
